@@ -2,7 +2,7 @@
 Import as Maven project
 
 ## Project Structure -
-Controller.java has all the endpoints defined.
+<li>Controller.java has all the endpoints defined.</li>
 SpringBootMysqldbApplication is the main application. 
 Person and Pet are the entities.
 PersonRepository and PetRepository are the JDA repositories.
