@@ -1,0 +1,10 @@
+---
+applications:
+  - name: springboot_lk
+    path: target/testlk-1.0.0.jar
+    memory: 1G
+    instances: 1
+    buildpacks:
+      - java_buildpack
+    services:
+      - mysqldb
